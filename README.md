@@ -52,10 +52,10 @@ Return value:
 
 ### Convertors and parsers
 
-**From int**	int s21_from_int_to_decimal(int src, s21_decimal *dst)
-**From float**	int s21_from_float_to_decimal(float src, s21_decimal *dst)
-**To int**	int s21_from_decimal_to_int(s21_decimal src, int *dst)
-**To float**	int s21_from_decimal_to_float(s21_decimal src, float *dst)
+- **From int**	int s21_from_int_to_decimal(int src, s21_decimal *dst)
+- **From float**	int s21_from_float_to_decimal(float src, s21_decimal *dst)
+- **To int**	int s21_from_decimal_to_int(s21_decimal src, int *dst)
+- **To float**	int s21_from_decimal_to_float(s21_decimal src, float *dst)
 
 Return value - code error:
 
@@ -64,10 +64,10 @@ Return value - code error:
 
 ### Another functions
 
-**Rounds a specified Decimal number to the closest integer toward negative infinity**	int s21_floor(s21_decimal value, s21_decimal *result)
-**Rounds a decimal value to the nearest integer**	int s21_round(s21_decimal value, s21_decimal *result)
-**Returns the integral digits of the specified Decimal; any fractional digits are discarded, including trailing zeroes**	int s21_truncate(s21_decimal value, s21_decimal *result)
-**Returns the result of multiplying the specified Decimal value by negative one**	int s21_negate(s21_decimal value, s21_decimal *result)
+- **Rounds a specified Decimal number to the closest integer toward negative infinity**	int s21_floor(s21_decimal value, s21_decimal *result)
+- **Rounds a decimal value to the nearest integer**	int s21_round(s21_decimal value, s21_decimal *result)
+- **Returns the integral digits of the specified Decimal; any fractional digits are discarded, including trailing zeroes**	int s21_truncate(s21_decimal value, s21_decimal *result)
+- **Returns the result of multiplying the specified Decimal value by negative one**	int s21_negate(s21_decimal value, s21_decimal *result)
 
 Return value - code error:
 
