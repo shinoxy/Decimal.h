@@ -24,10 +24,10 @@ Bit 31 contains the sign; 0 meaning positive, and 1 meaning negative.
 
 ### Arithmetic Operators
 
-**Addition** int s21_add(s21_decimal value_1, s21_decimal value_2, s21_decimal *result)
-**Subtraction**	int s21_sub(s21_decimal value_1, s21_decimal value_2, s21_decimal *result)
-**Multiplication** int s21_mul(s21_decimal value_1, s21_decimal value_2, s21_decimal *result)
-**Division** int s21_div(s21_decimal value_1, s21_decimal value_2, s21_decimal *result)
+- **Addition** int s21_add(s21_decimal value_1, s21_decimal value_2, s21_decimal *result)
+- **Subtraction**	int s21_sub(s21_decimal value_1, s21_decimal value_2, s21_decimal *result)
+- **Multiplication** int s21_mul(s21_decimal value_1, s21_decimal value_2, s21_decimal *result)
+- **Division** int s21_div(s21_decimal value_1, s21_decimal value_2, s21_decimal *result)
 
 The functions return the error code:
 
@@ -38,12 +38,12 @@ The functions return the error code:
 
 ### Comparison Operators
 
-**Less than** int s21_is_less(s21_decimal, s21_decimal)
-**Less than or equal to** int s21_is_less_or_equal(s21_decimal, s21_decimal)
-**Greater than** int s21_is_greater(s21_decimal, s21_decimal)
-**Greater than or equal to**	int s21_is_greater_or_equal(s21_decimal, s21_decimal)
-**Equal to**	int s21_is_equal(s21_decimal, s21_decimal)
-**Not equal to**	int s21_is_not_equal(s21_decimal, s21_decimal)
+- **Less than** int s21_is_less(s21_decimal, s21_decimal)
+- **Less than or equal to** int s21_is_less_or_equal(s21_decimal, s21_decimal)
+- **Greater than** int s21_is_greater(s21_decimal, s21_decimal)
+- **Greater than or equal to**	int s21_is_greater_or_equal(s21_decimal, s21_decimal)
+- **Equal to**	int s21_is_equal(s21_decimal, s21_decimal)
+- **Not equal to**	int s21_is_not_equal(s21_decimal, s21_decimal)
 
 Return value:
 
@@ -62,7 +62,7 @@ Return value - code error:
 0 - OK
 1 - convertation error
 
-## Another functions
+### Another functions
 
 **Rounds a specified Decimal number to the closest integer toward negative infinity**	int s21_floor(s21_decimal value, s21_decimal *result)
 **Rounds a decimal value to the nearest integer**	int s21_round(s21_decimal value, s21_decimal *result)
