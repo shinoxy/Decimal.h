@@ -45,7 +45,7 @@ The functions return the error code:
 - **Equal to**	int s21_is_equal(s21_decimal, s21_decimal)
 - **Not equal to**	int s21_is_not_equal(s21_decimal, s21_decimal)
 
-Return value:
+Return value - code error:
 
 - 0 - FALSE
 - 1 - TRUE
