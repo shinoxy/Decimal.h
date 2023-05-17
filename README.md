@@ -31,10 +31,10 @@ Bit 31 contains the sign; 0 meaning positive, and 1 meaning negative.
 
 The functions return the error code:
 
-0 - OK
-1 - the number is too large or equal to infinity
-2 - the number is too small or equal to negative infinity
-3 - division by 0
+- 0 - OK
+- 1 - the number is too large or equal to infinity
+- 2 - the number is too small or equal to negative infinity
+- 3 - division by 0
 
 ### Comparison Operators
 
@@ -47,8 +47,8 @@ The functions return the error code:
 
 Return value:
 
-0 - FALSE
-1 - TRUE
+- 0 - FALSE
+- 1 - TRUE
 
 ### Convertors and parsers
 
@@ -59,8 +59,8 @@ Return value:
 
 Return value - code error:
 
-0 - OK
-1 - convertation error
+- 0 - OK
+- 1 - convertation error
 
 ### Another functions
 
@@ -71,5 +71,5 @@ Return value - code error:
 
 Return value - code error:
 
-0 - OK
-1 - calculation error
+- 0 - OK
+- 1 - calculation error
