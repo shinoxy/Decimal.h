@@ -1,4 +1,4 @@
-# Decimal.h
+# s21_decimal.h
 
 ## In this project I implemented the s21_decimal.h library in the C programming language. 
 This library adds the ability to work with the "decimal" type, which is not in the language standard. Nevertheless, this type is critically important. For financial calculations, for example, where errors of calculations characteristic of types with floating point are unacceptable.
@@ -73,3 +73,14 @@ Return value - code error:
 
 - 0 - OK
 - 1 - calculation error
+
+
+## About project
+- The library is developed in C language of C11 standard using gcc compiler  
+- POSIX.1-2017 standard is used  
+- The project follows the Google style  
+- The project made as a static library (with the s21_matrix.h header file)  
+- The library is developed according to the principles of structured programming  
+- Unit tests cover at least 80% of each function (checked using gcov)  
+- Makefile for building the library and tests (with targets all, clean, test, s21_matrix.a, gcov_report) is provided  
+- Verifiable accuracy of the fractional part is up to 6 decimal places  
